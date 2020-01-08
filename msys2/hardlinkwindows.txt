@@ -5,3 +5,5 @@ mklink /H C:\Users\PROXCR\Documents\Code\.dotfiles\msys2\homedir\.inputrc C:\Use
 mklink /H C:\Users\PROXCR\Documents\Code\.dotfiles\msys2\homedir\.p10k.zsh C:\Users\PROXCR\.p10k.zsh
 mklink /H C:\Users\PROXCR\Documents\Code\.dotfiles\msys2\homedir\.vimrc C:\Users\PROXCR\.vimrc
 mklink /H C:\Users\PROXCR\Documents\Code\.dotfiles\msys2\homedir\.zshrc C:\Users\PROXCR\.zshrc
+mklink /H C:\Users\PROXCR\Documents\Code\.dotfiles\msys2\vscode\settings.json 
+C:\Users\PROXCR\AppData\Roaming\Code\User\settings.json
