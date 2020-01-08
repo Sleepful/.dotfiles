@@ -1,0 +1,8 @@
+[user]
+	name = Jose Vargas
+	email = jose.vargas@proximitycr.com
+[core]
+	autocrlf = true
+	hooksPath = ~/.git/hooks
+[credential]
+	helper = manager
