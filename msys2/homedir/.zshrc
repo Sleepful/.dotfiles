@@ -123,3 +123,4 @@ bindkey '^[[1;5D' backward-word
 [[ ! -f ~/.p10k.zsh ]] || source ~/.p10k.zsh
 
 alias npm='winpty "/c/Program Files/nodejs/npm.cmd"'
+alias giw='winpty "/c/Program Files/Git/cmd/git.exe"'
