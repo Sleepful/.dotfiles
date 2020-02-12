@@ -124,3 +124,6 @@ bindkey '^[[1;5D' backward-word
 
 alias npm='winpty "/c/Program Files/nodejs/npm.cmd"'
 alias giw='winpty "/c/Program Files/Git/cmd/git.exe"'
+alias ui='cd /c/Users/PROXCR/source/repos/BPF-UI'
+alias api='cd /c/Users/PROXCR/source/repos/BPF-API/Bpf.Api'
+
