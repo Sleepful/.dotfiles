@@ -28,4 +28,8 @@
     "diffEditor.ignoreTrimWhitespace": false,
     "diffEditor.renderSideBySide": false,
     "typescript.disableAutomaticTypeAcquisition": true,
+    "[python]": {
+        "editor.insertSpaces": true,
+        "editor.tabSize": 2
+    }
 }

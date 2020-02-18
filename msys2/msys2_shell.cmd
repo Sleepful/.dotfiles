@@ -13,7 +13,7 @@ rem set MSYS=error_start:%WD%../../mingw64/bin/qtcreator.exe^|-debug^|^<process-
 
 rem To export full current PATH from environment into MSYS2 use '-use-full-path' parameter
 rem or uncomment next line
-rem set MSYS2_PATH_TYPE=inherit
+set MSYS2_PATH_TYPE=inherit
 
 :checkparams
 rem Help option
