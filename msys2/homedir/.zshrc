@@ -9,7 +9,7 @@ fi
 # export PATH=$HOME/bin:/usr/local/bin:$PATH
 
 # Path to your oh-my-zsh installation.
-export ZSH="/c/Users/PROXCR/.oh-my-zsh"
+export ZSH="/c/Users/Jose/.oh-my-zsh"
 
 # Set name of the theme to load --- if set to "random", it will
 # load a random theme each time oh-my-zsh is loaded, in which case,
@@ -124,6 +124,4 @@ bindkey '^[[1;5D' backward-word
 
 alias npm='winpty "/c/Program Files/nodejs/npm.cmd"'
 alias giw='winpty "/c/Program Files/Git/cmd/git.exe"'
-alias ui='cd /c/Users/PROXCR/source/repos/BPF-UI'
-alias api='cd /c/Users/PROXCR/source/repos/BPF-API/Bpf.Api'
 
