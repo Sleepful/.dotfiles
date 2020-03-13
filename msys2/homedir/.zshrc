@@ -92,6 +92,7 @@ bindkey 'kj' vi-cmd-mode
 # vi-mode plugin ruins forward/backward word ctrl+arrow
 bindkey '^[[1;5C' forward-word 
 bindkey '^[[1;5D' backward-word 
+bindkey -v # vi mode with esc
 
 # User configuration
 
