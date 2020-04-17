@@ -9,6 +9,7 @@ fi
 # export PATH=$HOME/bin:/usr/local/bin:$PATH
 
 path+=('/snap/bin')
+path+=('/home/ophanim/.emacs.d/bin')
 export PATH
 
 # Path to your oh-my-zsh installation.
@@ -172,3 +173,9 @@ alias p10kc="vim ~/.p10k.zsh"
 [[ ! -f ~/.p10k.zsh ]] || source ~/.p10k.zsh
 
 [ -f ~/.fzf.zsh ] && source ~/.fzf.zsh
+
+# cd alias
+alias sa="cd ~/Spartana/sparta"
+
+# git password manager
+export GIT_ASKPASS=`which ksshaskpass`

@@ -1,5 +1,5 @@
 ;; -*- no-byte-compile: t; -*-
-;;; $DOOMDIR/packages.el
+
 
 ;; To install a package with Doom you must declare them here, run 'doom sync' on
 ;; the command line, then restart Emacs for the changes to take effect.
@@ -21,6 +21,8 @@
 
 ;; To install SOME-PACKAGE from MELPA, ELPA or emacsmirror:
 ;(package! some-package)
+(package! irony)
+(package! rtags)
 
 ;; To install a package directly from a particular repo, you'll need to specify
 ;; a `:recipe'. You'll find documentation on what `:recipe' accepts here:

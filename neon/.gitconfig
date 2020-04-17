@@ -1,0 +1,7 @@
+[user]
+	email = josepablov@gmail.com
+	name = Jose
+[credential]
+	helper = cache
+[core]
+	hooksPath = ~/.git/hooks

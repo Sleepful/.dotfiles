@@ -1,0 +1,17 @@
+{
+    "workbench.editor.enablePreview": false,
+    "eslint.run": "onType",
+    "files.eol": "\n",
+    "editor.renderWhitespace": "all",
+    "editor.rulers": [100],
+    "workbench.colorCustomizations": {
+        "editorRuler.foreground": "#ff4081"
+    },
+    "workbench.colorTheme": "Horizon",
+    "editor.minimap.enabled": true,
+    "window.zoomLevel": 1,
+    "workbench.iconTheme": "material-icon-theme",
+    "editor.codeActionsOnSave": {
+        "source.fixAll.eslint": true
+    }
+}
