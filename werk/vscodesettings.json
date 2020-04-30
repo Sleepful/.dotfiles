@@ -1,0 +1,30 @@
+{
+    "workbench.editor.enablePreview": false,
+    "eslint.run": "onType",
+    "files.eol": "\n",
+    "editor.renderWhitespace": "all",
+    "editor.rulers": [100],
+    "workbench.colorCustomizations": {
+        "editorRuler.foreground": "#ff4081",
+        "editor.selectionBackground": "#00330c",
+        "editor.selectionHighlightBackground": "#240000",
+        "editor.wordHighlightBackground": "#240000",
+        "editor.wordHighlightStrongBackground": "#000000",
+        "editor.inactiveSelectionBackground": "#000000",
+        "editor.findMatchBackground": "#090436",
+        "editor.findMatchHighlightBackground": "#000000",
+        "editorLineNumber.foreground": "#ff4081",
+        "editorBracketMatch.border": "#bd0074",
+        "editorBracketMatch.background": "#000000",
+    },
+    "workbench.colorTheme": "Horizon",
+    "editor.minimap.enabled": true,
+    "window.zoomLevel": 1,
+    "workbench.iconTheme": "material-icon-theme",
+    "editor.codeActionsOnSave": {
+        "source.fixAll.eslint": true
+    },
+    "terminal.integrated.shell.windows": "C:\\Program Files\\Git\\bin\\bash.exe",
+    "javascript.validate.enable": false
+    
+}
