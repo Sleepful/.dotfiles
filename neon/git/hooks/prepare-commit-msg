@@ -4,8 +4,8 @@ from subprocess import check_output
 
 commit_msg_filepath = sys.argv[1]
 
-branch = check_output(['git', 'symbolic-ref', '--short', 'HEAD']).strip()
-regex = '(\w+-\d+)'
+branch = check_output(['git', 'symbolic-ref', '--short', 'HEAD']).decode('utf-8').strip()
+regex = r'(\w+-\d+)'
 if re.match(regex, branch):
     issue = re.match(regex, branch).group(1)
     with open(commit_msg_filepath, 'r+') as fh:
