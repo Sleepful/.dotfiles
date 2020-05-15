@@ -16,15 +16,19 @@
         "editorLineNumber.foreground": "#ff4081",
         "editorBracketMatch.border": "#bd0074",
         "editorBracketMatch.background": "#000000",
+        "minimapSlider.background": "#a3f05c50",
+        "minimapSlider.activeBackground": "#a3f05c50",
+        "minimapSlider.hoverBackground": "#a3f05c50",
     },
     "workbench.colorTheme": "Horizon",
     "editor.minimap.enabled": true,
-    "window.zoomLevel": 1,
+    "window.zoomLevel": 0,
     "workbench.iconTheme": "material-icon-theme",
     "editor.codeActionsOnSave": {
         "source.fixAll.eslint": true
     },
     "terminal.integrated.shell.windows": "C:\\Program Files\\Git\\bin\\bash.exe",
-    "javascript.validate.enable": false
+    "javascript.validate.enable": false,
+    "C_Cpp.updateChannel": "Insiders"
     
 }
