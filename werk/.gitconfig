@@ -20,4 +20,7 @@
 	conew = "!conew(){ git checkout -b \"$1\" && git commit --allow-empty -m \"$2\" && git push -u origin HEAD; }; conew"
 	# delete branch from local and remote
 	# delbr BRANCHNAME
-	delbr = "!delbr(){ git branch -d \"$1\" && git push -d origin \"$1\"; }; delbr"
+	delbr = "!delbr(){ git branch -D \"$1\" && git push -d origin \"$1\"; }; delbr"
+	fixup = commit --fixup=HEAD
+	refixup = rebase --autosquash -i HEAD~~
+	uncommit = reset --soft HEAD~
